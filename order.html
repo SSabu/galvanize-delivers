@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script defer src="index.js"></script>
+      <link rel="stylesheet" href="css/index.css"
+    </head>
+
+      <title>Galvanize Delivers</title>
+    </head>
+
+    <body>
+      <nav>
+        <div class="nav-wrapper blue darken-3">
+          <a href="#" class="brand-logo">Galvanize Delivers</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons"></i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="order.html">Order Delivery</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col l7 s1">
+          <h4>Menu</h4>
+            <div class="row">
+              <div class="col l6 m4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="img/burger.jpg">
+                  </div>
+                  <div class="card-content">
+                    <h5 class="item">Royale with Cheese</h5>
+                    <p class="price">$8.99</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#" class="order pink-text">Add to Order</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col m4 l6">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="img/pizza.jpg">
+                  </div>
+                  <div class="card-content">
+                    <h5 class="item">Arugula Pie</h5>
+                    <p class="price">$11.99</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#" class="order pink-text">Add to Order</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col m4 l6">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="img/ribs.jpg">
+                  </div>
+                  <div class="card-content">
+                    <h5 class="item">Smoked Swine</h5>
+                    <p class="price">$14.99</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#" class="order pink-text">Add to Order</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col m4 l6">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="img/ice_cream.jpg">
+                  </div>
+                  <div class="card-content">
+                    <h5 class="item">Ice Cream Biscuit</h5>
+                    <p class="price">$7.99</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#" class="order pink-text">Add to Order</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+        <div class="col l5 s1">
+          <h4>Order</h4>
+          <div class="row">
+
+          <div class="col s12">
+
+            <table id="orders" class="striped responsive">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th class="justify">Price</th>
+                </tr>
+              </thead>
+
+              <tbody>
+
+              </tbody>
+            </table>
+
+            <table class="subtotals">
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td class="mid-justify">Subtotal</td>
+                  <td class="subtotal justify"></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td class="mid-justify">Tax</td>
+                  <td class="tax justify"></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td class="mid-justify">Total</td>
+                  <td class="total justify"></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="center-row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix pink-text">account_circle</i>
+                    <input id="name" type="text" class="validate">
+                    <label for="icon_prefix">Name</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix pink-text">phone</i>
+                      <input id="telephone" type="tel" class="validate">
+                    <label for="icon_telephone">Phone Number</label>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="input-field col s12">
+
+                    <i class="material-icons prefix pink-text">business</i>
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="icon_prefix">Address</label>
+                  </div>
+                </div>
+
+              </form>
+
+            </div>
+
+            <div class="row center">
+              <a href="#" id="pinkbutton" class="btn-large pink text">Place an order</a>
+            </div>
+
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+      <footer class="page-footer blue darken-3">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s1">
+                <h5 class="white-text">Galvanize Delivers</h5>
+                <p class="grey-text text-lighten-4">Fine Dining, Delivered</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <ul>
+                  <li><a href="index.html" class="grey-text text-lighten-3" >Home</a></li>
+                  <li><a href="order.html" class="grey-text text-lighten-3" >Order Delivery</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            </div>
+          </div>
+        </footer>
+    </body>
+  </html>

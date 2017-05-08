@@ -1,0 +1,22 @@
+.parallax img {
+  display: block;
+}
+.material-icons{
+  vertical-align: bottom;
+}
+
+h5.item{
+  font-weight: 300;
+}
+
+td.justify{
+  text-align: right;
+}
+
+th.justify{
+  text-align: right;
+}
+
+td.mid-justify{
+  text-align: right;
+}
